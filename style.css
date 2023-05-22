@@ -1,0 +1,81 @@
+body {
+    padding: 0;
+    margin: 0;
+    background: #6b6a6a;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    width: 100vw;
+    height: 50vh;
+    align-items: flex-start;
+    
+}
+
+/* .input-a {
+    position: relative;
+    box-shadow: 5px, 15px, 7px, 15px rgba(159, 214, 5, 0.993);
+} */
+.input-a, .input-b {
+    position: relative;
+    box-shadow: 5px, 15px, 7px, 15px rgba(159, 214, 5, 0.993);
+    width: 20%;
+    height: 15%;
+    font-size: 35px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.output-operation {
+    width: 5%;
+    height: 15%;
+    font-size: 20px;
+}
+
+.btn-result {
+    width: 10%;
+    height: 15%;
+    font-size: 20px;
+}
+
+.btn-result, .input-a, .input-b, .output-operation {
+    background: #333;
+    color: antiquewhite;
+    border: 1px solid aqua;
+    border-radius: 7px;
+}
+
+input:focus {
+    outline: 1px solid aqua;
+    box-shadow: 0px 0px 5px 3px rgb(255, 102, 0);
+}
+select:focus {
+    outline: 1px solid aqua;
+    box-shadow: 0px 0px 5px 3px rgb(255, 102, 0);
+}
+button:hover {
+    box-shadow: 0px 0px 5px 3px rgb(255, 102, 0);
+}
+
+.output-title {
+    color: wheat;
+    text-shadow: 0px 0px 4px rgb(0, 255, 221);
+    font-size: 80px;
+    /* margin-top: 0; */
+    position: absolute;
+    top: 50%;
+}
